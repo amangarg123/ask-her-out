@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(
+    180deg,
+    #fffafc 0%,
+    #fff4f8 40%,
+    #ffeef5 100%
+  );
+
+  overflow-x: hidden;
+}
+
+.heading {
+  font-family: var(--font-cormorant);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at top left,#fff7fb,transparent),
+    radial-gradient(circle at bottom right,#ffe8f1,transparent);
+
+  z-index: -1;
+}
+
+/* ---------- Calendar ---------- */
+
+.calendar .rdp-root {
+  --rdp-accent-color: transparent;
+}
+
+/* month title */
+
+.calendar .rdp-caption_label {
+  font-size: 2rem;
+  color: #6b515c;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* arrows */
+
+.calendar .rdp-button_previous,
+.calendar .rdp-button_next {
+  width: 38px;
+  height: 38px;
+  margin: 5%;
+  border-radius: 999px;
+  background: white;
+
+  transition: .3s;
+
+  box-shadow: 0 5px 15px rgba(255, 192, 203, .3);
+}
+
+.calendar .rdp-button_previous:hover,
+.calendar .rdp-button_next:hover {
+  transform: scale(1.1);
+}
+
+.calendar .rdp-chevron {
+  fill: #d492aa;
+}
+
+/* weekday */
+
+.calendar .rdp-weekday {
+  color: #9c7d89;
+  font-weight: 600;
+}
+
+/* each day */
+
+.calendar .rdp-day_button {
+
+  width: 46px;
+  height: 46px;
+
+  border-radius: 999px;
+
+  transition: .25s;
+
+  color: #5b4753;
+}
+
+/* hover */
+
+.calendar .rdp-day_button:hover {
+
+  background: #ffe3ef;
+
+  transform: scale(1.1);
+
+}
+
+/* selected day */
+
+.calendar .rdp-selected .rdp-day_button {
+
+  background: #f7abc4 !important;
+
+  color: white;
+
+  box-shadow:
+      0 0 20px rgba(247,171,196,.7);
+
+}
+
+/* today */
+
+.calendar .rdp-today .rdp-day_button {
+
+  border: 2px solid #f7abc4;
+
+}
+
+/* disabled */
+
+.calendar .rdp-disabled {
+
+  opacity: .25;
+
+}
+
+/* outside days */
+
+.calendar .rdp-outside {
+
+  opacity: .15;
+
+}
+
+/* spacing */
+
+.calendar .rdp-month_grid {
+
+  gap: 12px;
+
+}
+
+.heading{
+  font-family: "Cormorant Garamond", serif;
+}
+
+.paper-shadow{
+  box-shadow:
+  0 25px 80px rgba(255,182,193,.25);
+}
