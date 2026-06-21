@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function RunAwayNoButton() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -13,35 +14,12 @@ export default function RunAwayNoButton() {
     });
   }
 
-  useEffect(() => {
-    function handleTouchMove(e: TouchEvent) {
-      const touch = e.touches[0];
-      const btn = buttonRef.current;
-      if (!touch || !btn) return;
-
-      const rect = btn.getBoundingClientRect();
-      const dx = touch.clientX - (rect.left + rect.width / 2);
-      const dy = touch.clientY - (rect.top + rect.height / 2);
-      const distance = Math.sqrt(dx * dx + dy * dy);
-
-      // move the button away once a finger gets close
-      if (distance < 70) {
-        move();
-      }
-    }
-
-    window.addEventListener("touchmove", handleTouchMove, { passive: true });
-    return () => window.removeEventListener("touchmove", handleTouchMove);
-  }, []);
-
+  const router = useRouter();
   return (
+    
     <button
       ref={buttonRef}
-      onMouseEnter={move}
-      onTouchStart={move} // safety net for a direct first tap
-      style={{
-        transform: `translate(${position.x}px,${position.y}px)`,
-      }}
+      onClick={() => router.push("/reason")}
       className="
       rounded-full
       border
@@ -50,9 +28,13 @@ export default function RunAwayNoButton() {
       px-10
       py-3
       transition-all
+      
+      duration-300
+      hover:scale-105
+      hover:bg-gray-400
       "
     >
-      No 🙈
+      No 🙈  
     </button>
   );
 }

@@ -31,8 +31,8 @@ export default function QuestionCard() {
           Will you go on a date with me?
         </h1>
 
-        <p className="mt-5 tracking-[6px] uppercase text-[#9f8793]">
-          because every sunflower deserves its jasmine
+        <p className="mt-5 tracking-[6px] text-[#9f8793]">
+          kyunki tumhare saath wali coffee bhi zyada tasty lagti hai ☕❤️
         </p>
 
         <div className="mt-10 flex justify-center gap-4">

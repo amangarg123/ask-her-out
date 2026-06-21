@@ -3,17 +3,16 @@
 import { useEffect, useState } from "react";
 import { handwritingFont } from "@/app/fonts";
 
-const letter = `I know this is just a tiny little website,
-but I wanted to ask you in a way
-that's as special as you are.
-No matter where we go,
-what we eat,
-or what time we meet,
-I know it'll be wonderful because
-I'll be spending it with you.
+const letter = `Sometimes I look at you and,
+have the most overwhelming thought,
 
-Thank you for making ordinary days beautiful.
-Will you make another lovely memory with me? ❤️`;
+I really got lucky. Like really, really lucky.
+
+Every day I become a little more 
+certain I chose right. Because life is
+just better with you in it.
+
+You will always be my favourite decision ❤️`;
 
 export default function TypewriterLetter() {
   const [displayed, setDisplayed] = useState("");

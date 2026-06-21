@@ -70,7 +70,7 @@ export default function LetterCard() {
           text-5xl
           text-[#8d6f7c]`}
         >
-          Aman 🌻
+          Your Sunflower 🌻
         </div>
 
         {/* wax seal */}

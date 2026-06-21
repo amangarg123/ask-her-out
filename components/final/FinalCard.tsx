@@ -60,7 +60,7 @@ export default function FinalCard() {
         </h1>
 
         <p className="mt-2 text-[#B28A97] tracking-[0.25em] uppercase">
-          Something wonderful awaits
+          Bas ab tumse milne ka intezaar hai ❤️
         </p>
 
         <DateSummaryCard
