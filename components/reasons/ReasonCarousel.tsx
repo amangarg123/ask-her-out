@@ -6,22 +6,22 @@ import AskAgainCard from "./AskAgainCard";
 const reasons = [
   {
     emoji: "😊",
-    title: "Your Smile",
+    title: "Aapki cute Smile",
     text: "It can brighten even my worst day."
   },
   {
     emoji: "🐼",
-    title: "Your Cute Side",
+    title: "Aapki maturity with Bachpana.. ",
     text: "Your panda obsession is adorable."
   },
   {
     emoji: "🌸",
-    title: "Your Kindness",
+    title: "Aapki Kindness and Caring Nature",
     text: "You make ordinary moments beautiful."
   },
   {
     emoji: "✨",
-    title: "You",
+    title: "Sbse Important.. Aap",
     text: "Simply because you're you."
   }
 ];

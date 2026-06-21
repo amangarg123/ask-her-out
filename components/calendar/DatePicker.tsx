@@ -22,7 +22,7 @@ export default function DatePicker() {
 
     setTimeout(() => {
       router.push("/time");
-    }, 600);
+    }, 150);
   }
 
   return (

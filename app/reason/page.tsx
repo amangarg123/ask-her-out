@@ -13,8 +13,9 @@ export default function ReasonsPage() {
             That's okay ❤️
           </h1>
           <p className="mt-3 text-[#8d6d78] mb-3">
-            Par jaane se pehle...
-            kya main tumhe yaad dila sakta hoon ki tum mere liye itni special kyun ho? 🌸
+            Par jaane se pehle... <br />
+            let me try one more time.. 🌸 <br/>
+            Reasons aap mujhe itne psnd ho.. 
           </p>
         </div>
         <ReasonCarousel />

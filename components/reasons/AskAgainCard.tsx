@@ -45,7 +45,7 @@ export default function AskAgainCard() {
       hover:bg-pink-400
           "
         >
-           Maybe This Time? 🌼
+           Let's try Again? 🌼
         </button>
 
         {/* <button

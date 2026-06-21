@@ -55,8 +55,8 @@ export default function LetterCard() {
           text-center
           text-3xl
           text-[#5b4753]`}
-        >
-          To My Favorite Person 🌸
+        > Thank you for accepting.. 💝<br />
+        You will always be my Favourite.. 
         </h1>
 
         <div className="mt-5">
