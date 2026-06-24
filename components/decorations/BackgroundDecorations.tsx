@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import FloatingSparkles from "../effects/FloatingSparkles";
+import RisingHearts from "../effects/RisingHearts";
 
 const FallingPetals = dynamic(
   () => import("../effects/FallingPetals"),
@@ -14,6 +15,7 @@ export default function BackgroundDecorations() {
   return (
     <>
       <FallingPetals />
+      <RisingHearts />
       <FloatingSparkles />
 
       {/* jasmine vine */}

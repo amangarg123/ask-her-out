@@ -12,9 +12,7 @@ export default function LoveQuote() {
       border-l-4 border-pink-300
       "
     >
-      ✨ Every great love story has another beautiful chapter.
-      <br />
-      This is ours. ❤️
+      ✨ You will always be my most Davourite Decision. ❤️
     </div>
   );
 }

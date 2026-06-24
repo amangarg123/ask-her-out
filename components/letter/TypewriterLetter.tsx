@@ -3,14 +3,13 @@
 import { useEffect, useState } from "react";
 import { handwritingFont } from "@/app/fonts";
 
-const letter = `Sometimes I look at you and,
-have the most overwhelming thought,
+const letter = `
+Ek Pyaari si Shayari hai aapke liye..
+Kisne kaha Ishq Ek baar hota hai..
+Kisne kaha Ishq Ek baar hota hai..
 
-I really got lucky. Like really, really lucky.
-
-Every day I become a little more 
-certain I chose right. Because life is
-just better with you in it.
+Mai Aapko jitni baar dekhta hun 
+Mujhe utni baar hota hai.. ❤️
 
 You will always be my favourite decision ❤️`;
 
